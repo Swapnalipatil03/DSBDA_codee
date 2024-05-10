@@ -1,0 +1,49 @@
+As discussed earlier, Breadth-First Search (BFS) is an algorithm used for traversing graphs or trees. Traversing means visiting each node of the graph. Breadth-First Search is a recursive algorithm to search all the vertices of a graph or a tree. BFS in python can be implemented by using data structures like a dictionary and lists. Breadth-First Search in tree and graph is almost the same. The only difference is that the graph may contain cycles, so we may traverse to the same node again.
+As breadth-first search is the process of traversing each node of the graph, a standard BFS algorithm traverses each vertex of the graph into two parts: 1) Visited 2) Not Visited. So, the purpose of the algorithm is to visit all the vertex while avoiding cycles.
+
+BFS starts from a node, then it checks all the nodes at distance one from the beginning node, then it checks all the nodes at distance two, and so on. So as to recollect the nodes to be visited, BFS uses a queue.
+The steps of the algorithm work as follow:
+
+ Start by putting any one of the graph’s vertices at the back of the queue.
+ Now take the front item of the queue and add it to the visited list.
+ Create a list of that vertex's adjacent nodes. Add those which are not within the visited list to the rear of the queue.
+ Keep continuing steps two and three till the queue is empty.
+
+DFS:
+Graph traversal is the process by which one can travel from one node (called the source) to all other nodes of the graph. The order of nodes traced out during the process of traversal depends on the algorithm used. Graph traversal is of two main types: Breadth-first Search and depth-first Search.
+
+Depth First Search (DFS) is an algorithm of graph traversal that starts exploring from a source node (generally the root node) and then explores as many nodes as possible before backtracking. Unlike breadth-first search, the exploration of nodes is very non-uniform by nature.
+The general process of exploring a graph using depth-first search includes the following steps:
+
+Take the input for the adjacency matrix or adjacency list for the graph.
+Initialize a stack.
+Push the root node (in other words, put the root node at the beginning of the stack).
+If the root node has no neighbors, stop here. Else push the leftmost neighboring node which hasn’t already been explored into the stack. Continue this process till a node is encountered that has no neighbors (or whose neighbors have all been added to the stack already) – stop the process, pop the head, and then continue the process for the node that is popped.
+Keep repeating this process till the stack becomes empty.
+
+
+AWS (Amazon Web Services) is a comprehensive, evolving cloud computing platform provided by Amazon. It includes a mixture of infrastructure-as-a-service (IaaS), platform-as-a-service (PaaS) and packaged software-as-a-service (SaaS) offerings. AWS offers tools such as compute power, database storage and content delivery services.
+Amazon Web Services (AWS) is a leading top platform in providing the web services of various domains. AWS follows the trends of digital IT and comes up needy services with optimized performances covering a wide range of services from Compute to Storage. It covers a wider range of customers of different domains to expand their business operations. This Article covers the fundamentals of AWS and its scope of IT business.
+AWS stands for Amazon Web Services, It is an expanded cloud computing platform provided by Amazon Company. AWS provides a wide range of services with a pay-as-per-use pricing model over the Internet such as Storage, Computing power, Databases, Machine Learning services, and much more. AWS facilitates for both businesses and individual users with effectively hosting the applications, storing the data securely, and making use of a wide variety of tools and services improving management flexibility for IT resources.
+
+EC2
+EC2 stands for Elastic Compute Cloud. EC2 is an on-demand computing service on the AWS cloud platform. Under computing, it includes all the services a computing device can offer to you along with the flexibility of a virtual environment. It also allows the user to configure their instances as per their requirements i.e. allocate the RAM, ROM, and storage according to the need of the current task. Even the user can dismantle the virtual device once its task is completed and it is no more required. For providing, all these scalable resources AWS charges some bill amount at the end of every month, the bill amount is entirely dependent on your usage. EC2 allows you to rent virtual computers. The provision of servers on AWS Cloud is one of the easiest ways in EC2. EC2 has resizable capacity. EC2 offers security, reliability, high performance, and cost-effective infrastructure so as to meet the demanding business needs.
+
+Deploying Application: In the AWS EC2 instance, you can deploy your application like .jar,.war, or .ear application without maintaining the underlying infrastructure.
+Scaling Application: Once you deployed your web application in the EC2 instance know you can scale your application based upon the demand you are having by scaling the AWS EC2-Instance.
+Deploying The ML Models: You can train and deploy your ML models in the EC2-instance because it offers up to 400 Gbps), and storage services purpose-built to optimize the price performance for ML projects.
+Hybrid Cloud Environment: You can deploy your web application in EC2-Instance and you can connect to the database which is deployed in the on-premises servers.
+Cost-Effective: Amazon EC2-instance is cost-effective so you can deploy your gaming application in the Amazon EC2-Instances
+
+Google app engine
+Google App Engine is a platform-as-a-service (PaaS) cloud computing platform for developing and hosting web applications in Google-managed data centers. It allows developers to build and deploy applications on Google's infrastructure without worrying about managing the underlying hardware or scalability issues.
+
+App Engine supports several programming languages including Python, Java, Node.js, Go, and PHP. It provides automatic scaling, load balancing, and other essential features to handle web traffic efficiently. Developers can focus on writing code and building their applications while Google manages the infrastructure, ensuring scalability, reliability, and security.
+
+Additionally, Google App Engine offers various services and APIs such as a fully managed NoSQL database (Google Cloud Datastore), a relational database service (Cloud SQL), task queues, and more, making it a comprehensive platform for building and deploying web applications.
+
+
+
+
+
+
